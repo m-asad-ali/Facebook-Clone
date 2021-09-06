@@ -46,6 +46,7 @@ nav{
 
 i{
     font-size: 20px;
+    color: rgb(111, 111, 111);
 }
 
 main{
@@ -60,17 +61,46 @@ main{
 .left{
     flex:1;
     background-color: blanchedalmond;
-    min-height: 800px;
+    min-height: 500px;
 }
 
 .middle{
     flex:2;
     background-color: rgb(231, 198, 148);
-    min-height: 800px;
+    min-height: 500px;
+    box-sizing: border-box;
+    padding: 0 7.5rem;
+
 }
 
 .right{
     flex:1;
     background-color: rgb(238, 163, 52);
-    min-height: 800px;
+    min-height: 500px;
+}
+
+.left-upperBox{
+    min-height: 200px;
+    background-color: lightblue;
+}
+
+.your-shortcuts{
+    min-height: 200px;
+    background-color: brown;
+}
+
+.story-box{
+    background-color: #F0F2F5;
+    display: flex;
+    padding: 10px;
+    justify-content: space-around;
+    
+}
+
+.stories{
+    width: 111px;
+    height: 200px;
+    background-color: green;
+    border-radius: 15px;
+    /* margin-right: 10px; */
 }
