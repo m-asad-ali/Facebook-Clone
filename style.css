@@ -9,6 +9,25 @@ body{
 nav{
     min-height: 100px;
     background-color: white;
+    display: flex;
+}
+
+.nav-left{
+    flex: 1;
+    align-self: center;
+    
+}
+
+.nav-middle{
+    flex: 2;
+    align-self: center;
+    
+}
+
+.nav-right{
+    flex: 1;
+    align-self: center;
+    
 }
 
 .container{
