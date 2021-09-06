@@ -7,27 +7,42 @@ body{
 }
 
 nav{
-    min-height: 100px;
     background-color: white;
     display: flex;
 }
 
 .nav-left{
     flex: 1;
-    align-self: center;
+    display: flex;
+    align-items: center;
     
 }
 
 .nav-middle{
     flex: 2;
-    align-self: center;
-    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .nav-right{
     flex: 1;
-    align-self: center;
-    
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.logo{
+    width: 100px;
+}
+
+.searchBox{
+    border: 1px solid black;
+    width: 50px;
+}
+
+i{
+    font-size: 20px;
 }
 
 .container{
