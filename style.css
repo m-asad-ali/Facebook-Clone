@@ -214,14 +214,14 @@ main{
     align-items: center;
 }
 
-.right a, .left-upperBox a{
+.right a, .left-upperBox a, .your-shortcuts a{
     color:black;
     text-decoration: none;
     border-radius: 10px;
-    padding: 8px;
+    padding: 8px 0;
 }
 
-.right a:hover, .left-upperBox a:hover{
+.right a:hover, .left-upperBox a:hover, .your-shortcuts a:hover{
     background-color: rgba(163, 163, 163, 0.323);
     
 }
