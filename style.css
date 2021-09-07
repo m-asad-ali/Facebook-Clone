@@ -109,9 +109,10 @@ main{
 .right{
     /* flex:1; */
     width: 328px;
-    box-sizing: border-box;
-    background-color: rgb(238, 163, 52);
     min-height: 500px;
+    padding-top: 10px;
+    /* background-color: rgb(238, 163, 52); */
+    box-sizing: border-box;
 }
 
 
@@ -203,6 +204,27 @@ main{
     background-color: white;
 
 }
+
+.rightSide-image-container{
+    display: flex;
+    font-weight: 600;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* utality classes*/
 
 .margin-left{
     margin-left: 10px;
