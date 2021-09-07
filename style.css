@@ -9,7 +9,7 @@ body{
 
 nav{
     background-color: white;
-    position: sticky;
+    /* position: sticky; */
     display: flex;
     padding: 0 10px;
     /* box-shadow: 0px 1.5px 2px 0px rgba(0, 0, 0, 0.34); */
@@ -26,9 +26,11 @@ nav{
 .nav-middle{
     flex: 2;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: center;
-    padding: 0 24.5vh;
+    /* padding: 0 24.5vh; */
+    margin: 0 50px;
+    padding: 0 77px;
 
 }
 
@@ -38,6 +40,7 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+
 
 .logo{
     width: 50px;
@@ -61,9 +64,15 @@ nav{
 
 .icons-color{
     /* font-size: 20px; */
+    
     color: rgb(111, 111, 111);
-    width: 111px;
     text-align: center;
+}
+
+
+.active {
+    color: blue;
+    border-bottom: 4px solid blue;
 }
 
 main{
@@ -76,28 +85,36 @@ main{
 }
 
 .left{
-    flex:1.5;
-    /* width: 328px; */
+    /* flex:1; */
+    width: 328px;
+    box-sizing: border-box;
     background-color: blanchedalmond;
     min-height: 500px;
 }
 
 .middle{
-    flex:2;
+    flex:1;
     /* width: 864px; */
     min-height: 500px;
     box-sizing: border-box;
     /* padding: 0 11rem; */
-    padding: 0 24.5vh;
+    /* padding: 0 24.5vh; */
+    justify-content:center;
+    align-content: center;
+    margin: 0 50px;
+    padding: 0 77px;
 
 }
 
 .right{
-    flex:1.5;
-    /* width: 328px; */
+    /* flex:1; */
+    width: 328px;
+    box-sizing: border-box;
     background-color: rgb(238, 163, 52);
     min-height: 500px;
 }
+
+
 
 .left-upperBox{
     min-height: 400px;
@@ -110,14 +127,12 @@ main{
 }
 
 .story-box{
-    /* background-color: #ebd26f; */
     display: flex;
-    padding: 10px 0;
+    padding: 10px 0px;
     justify-content: space-between;
 }
 
 .stories{
-    width: 111px;
     height: 200px;
     background-color: rgb(150, 220, 150);
 }
@@ -142,7 +157,7 @@ main{
 }
 
 .admin-image{
-    width: 7%;
+    width: 41px;
     border-radius: 100px;
 }
 
@@ -150,24 +165,24 @@ main{
     color: green;
 }
 
-.user-utility-box h3:last-child i{
+ .user-utility-box h3:last-child i{
     color: lightsalmon;
 }
 
 .user-utility-box h3:first-child i{
     color: red;
+
 }
 
 .user-utility-box h3{
     color:gray;
-}
+} 
 
 .room-box{
     height: 64px;
     display: flex;
     padding: 10px;
     box-sizing: border-box;
-    /* justify-items: center; */
 }
 
 .room{
@@ -184,11 +199,19 @@ main{
 .radius{
     border-radius: 10px;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.289);
-    /* 0 5 8 -9 */
     margin-bottom: 20px;
     background-color: white;
+
 }
 
 .margin-left{
     margin-left: 10px;
+}
+
+.story-width{
+    width: 111px;
+}
+
+.idel-width{
+    width: 589px;
 }
