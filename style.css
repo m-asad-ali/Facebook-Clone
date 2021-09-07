@@ -9,9 +9,11 @@ body{
 
 nav{
     background-color: white;
+    position: sticky;
     display: flex;
     padding: 0 10px;
-    box-shadow: 0px 1.5px 2px 0px rgba(0, 0, 0, 0.34);
+    /* box-shadow: 0px 1.5px 2px 0px rgba(0, 0, 0, 0.34); */
+    box-shadow: 0px 5px 8px -9px rgba(0, 0, 0, 0.34);
 }
 
 .nav-left{
@@ -33,7 +35,7 @@ nav{
 .nav-right{
     flex: 1;
     display: flex;
-    justify-content: flex-end;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -74,7 +76,7 @@ main{
 }
 
 .left{
-    flex:1;
+    flex:1.5;
     /* width: 328px; */
     background-color: blanchedalmond;
     min-height: 500px;
@@ -91,7 +93,7 @@ main{
 }
 
 .right{
-    flex:1;
+    flex:1.5;
     /* width: 328px; */
     background-color: rgb(238, 163, 52);
     min-height: 500px;
@@ -182,6 +184,7 @@ main{
 .radius{
     border-radius: 10px;
     box-shadow: 0px 2px 5px 0px rgba(0, 0, 0, 0.289);
+    /* 0 5 8 -9 */
     margin-bottom: 20px;
     background-color: white;
 }
