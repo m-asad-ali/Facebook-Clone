@@ -212,9 +212,19 @@ main{
     display: flex;
     font-weight: 600;
     align-items: center;
-    margin-bottom: 15px;
 }
 
+.right a, .left-upperBox a{
+    color:black;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 8px;
+}
+
+.right a:hover, .left-upperBox a:hover{
+    background-color: rgba(163, 163, 163, 0.323);
+    
+}
 
 
 
@@ -233,6 +243,10 @@ main{
     margin-left: 10px;
 }
 
+.margin-bottom{
+    margin-bottom: 15px;
+}
+
 .story-width{
     width: 111px;
 }
@@ -248,3 +262,5 @@ div.scroll {
     overflow-y: auto;
     text-align:justify;
 }
+
+
